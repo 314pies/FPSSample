@@ -149,3 +149,13 @@ Check out the [Documentation](Documentation/) folder for more information. In pa
 Our intention is that you can use everything in this project as a starting
 point or as bits and pieces in your own Unity games. For the legal words, see
 [LICENSE.md](LICENSE.md).
+
+
+* Known Issue
+    * Unity Package Manager Error
+        * Follow [this step](https://github.com/Unity-Technologies/FPSSample/issues/114) should fix(2020/5/6)
+        * 
+    * Kernel 'KSampleCopy4_1_x_8' not found
+        * Delete Library folder and Temp folder should fix
+            * //Which cause re-import HDRP package?
+        * May cause by have imported package before, then modify the manifest.json, then open without deleting the temp and lobrary folder, causing a not proper "upgrade" process while opening it with editor
