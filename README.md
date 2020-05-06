@@ -159,3 +159,4 @@ point or as bits and pieces in your own Unity games. For the legal words, see
         * Delete Library folder and Temp folder should fix
             * //Which cause re-import HDRP package?
         * May cause by have imported package before, then modify the manifest.json, then open without deleting the temp and lobrary folder, causing a not proper "upgrade" process while opening it with editor
+      *Cant launch editor as server, however quick start button work.
